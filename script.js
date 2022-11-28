@@ -8,15 +8,15 @@ let blackPepper = 4;
 let water = 1000;
 
 console.log("\nIngredients for 4 people:");
-console.log("Spaghetti:", spaghetti, "\nGuanciale:", guanciale, "\nVery fresh egg yolks:", eggYolk, "\nAged Granted Pecorino Romano cheese:", pecorino, "\nRaw black pepper:", blackPepper);
+console.log("Spaghetti:", spaghetti, "\nGuanciale:", guanciale, "\nVery fresh egg yolks:", eggYolk, "\nAged Granted Pecorino Romano cheese:", pecorino, "\nRaw black pepper:", blackPepper, "\nWater:", water);
 
 
 console.log("\nLet's make Carbonara:")
 
-eggYolk += 6 * 18;
-
 console.log("\nCut Guanciale in long strips of 1 cm layers.")
 
+console.log("1 Egg Yolk is aproxiatly 18 gr.");
+eggYolk += 6 * 18;
 let mixedEggPecorino = eggYolk + pecorino;
 console.log("Mix Egg Yolk with Pecorino:", mixedEggPecorino, "g");
 
@@ -44,9 +44,9 @@ carbonara += roastedBlackPepper;
 console.log("Add the remmaing roasted black paper. ", carbonara, "g");
 
 let plate = carbonara / 4;
-console.log("Thats one good plate per person of : ", plate, "g");
+console.log("\nThat's one good plate per person of  ", plate, "g");
 
-console.log("\nEnjoy!");
+console.log("Enjoy!");
 
 
 
